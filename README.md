@@ -24,9 +24,8 @@ Install and have your USB Rubber Ducky working in less than 5 minutes.
 ### Setup mode
 
 To edit the payload, enter setup mode by connecting the pin 1 (`GP0`) to pin 3 (`GND`), this will stop the pico-ducky from injecting the payload in your own machine.
-The easiest way to so is by using a jumper wire between those pins as seen bellow.
+The easiest way to so is by using a jumper wire between those pins.
 
-![Setup mode with a jumper]
 
 ### USB enable/disable mode
 
@@ -39,6 +38,3 @@ Connect a jumper wire between pin 18 and pin 20.
 This will prevent the pico-ducky from showing up as a USB drive when plugged into the target computer.  
 Remove the jumper and reconnect to your PC to reprogram.
 The default mode is USB mass storage enabled.   
-
-![USB enable/disable mode]
-
